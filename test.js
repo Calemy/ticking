@@ -1,4 +1,4 @@
-const Ticker = require("ticker")
+const Ticker = require(".")
 
 //Create ticker with ticking every 15ms
 const ticker = new Ticker(15)
