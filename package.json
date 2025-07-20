@@ -4,10 +4,18 @@
   "description": "a simple tick manager inspired by golang's time.Tick making limiting parallelism less stressful.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calemy/ticking.git"
   },
   "keywords": ["tick", "gotick", "ticker-go", "golang", "go", "time"],
   "author": "Nanoo",
   "license": "ISC",
-  "types": "./index.d.ts"
+  "types": "./index.d.ts",
+  "bugs": {
+    "url": "https://github.com/calemy/ticking/issues"
+  },
+  "homepage": "https://github.com/calemy/ticking#readme"
 }
